@@ -68,6 +68,8 @@ def Opcao3():
 
 
 app = Dash(__name__)
+server = app.server
+
 
 app.layout = html.Div(style={'backgroundColor': colors['background'], 'margin': '20px', 'padding': '20px 20px 20px 20px'},
                       children=[
